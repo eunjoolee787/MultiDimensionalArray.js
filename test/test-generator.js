@@ -29,5 +29,21 @@ describe("MultiDimensionalArray.generate", function(){
     });
   });
 
+  it("should return an array(length)", function(){
+    var array = MDA.generate(3,4,5);
+    array.length.should.equal(3);
+
+    array.forEach(function(element){
+      element.length.should.equal(4);
+  
+    array.forEach(function(elementNew){
+      elementNew.length.should.equal(5);
+    });
+    });
+  });
 
 });
+
+
+
+
