@@ -3,7 +3,7 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-describe("MultiDimensionalArray.generate", function(){
+describe("MultiDimensionalArray.count", function(){
 
 it("should return a number representing", function(){
   var sample_array = [1,0,0,1,0,0,0,0,1]; 
