@@ -19,7 +19,7 @@ module.exports = {
     var myCount = 0;
     for (var i = 0; i < array1.length; i++){
       if (array1[i] instanceof Array){
-        myCount+= this.count(array1[i]);
+        myCount+= this.count(array1[i],test);
       } else if (array1[i] == test){
         myCount++;
       }
